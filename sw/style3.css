@@ -1,0 +1,170 @@
+
+body {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style:initial;
+  margin: 0;
+  padding: 0%;
+  font-size: X-LARGE;
+  scroll-behavior: smooth;
+}
+.flex-img{
+  display: flex;
+  padding: 10px;
+  
+}
+.row {
+  display: flex;
+ 
+}
+.prawo{
+  text-align: right;
+}
+.column {
+  flex: 50%;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 1px;
+  text-align: center;
+  position:sticky;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  text-align: center;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: azure;
+  font-size:200PX;
+  border: #ffffff;
+  border-style: solid;
+  border-width:5px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding: 15px;
+}
+.section1 {
+  background-color: #f2f2f2;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+
+.section2 {
+  padding: 5px;
+  position: relative;
+  z-index: 1;
+  background-color: #e6e6e6;
+  font-family: "Cutive Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+
+.section3 {
+  padding: 5px;
+  background-color: #d9d9d9;
+  font-family: "Cutive Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+
+  bottom: 1px;
+  width: 100%;
+  text-align: center;
+}
+a:hover{
+  color: yellow;
+}
+
+.jeden{
+  overflow: hidden;
+    padding: 0;
+
+}
+.jeden img{
+  transition-duration: 1s;
+    margin: 0 auto;
+    display: block;
+}
+.jeden img:hover{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  z-index: 0;
+}
+.dwa{
+  overflow: hidden;
+    padding: 0;
+
+}
+.dwa img{
+  transition-duration: 1s;
+    margin: 0 auto;
+    display: block;
+}
+.dwa img:hover{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  z-index: 0;
+}
+.trzy{
+  overflow: hidden;
+    padding: 0;
+
+}
+.trzy img{
+  transition-duration: 1s;
+    margin: 0 auto;
+    display: block;
+}
+.trzy img:hover{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  z-index: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
